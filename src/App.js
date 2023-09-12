@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './App.css';
 import Home from './pages/Home';
-import AOS from 'aos';
+
 import "aos/dist/aos.css"
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Navbar from './Components/Navbar';
@@ -15,19 +15,7 @@ import Main from  './Components/detail/Main';
 
 function App() {
 
-  useEffect(() => {
-    const aos_init = () => {
-      AOS.init({
-        once: true,
-        duration: 1000,
-        easing: 'ease-out-cubic',
-      });
-    }
-
-    window.addEventListener('load', () => {
-      aos_init();
-    });
-  }, []);
+  
 
   return (
     <>
