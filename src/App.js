@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import './App.css';
 import Home from './pages/Home';
 
-import "aos/dist/aos.css"
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
